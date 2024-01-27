@@ -50,6 +50,12 @@ int main(){
         fortunate = false;
     }
 
+    cout << "\nHere is your buddy:" << endl;
+    cout << "Name: " << palName << endl;
+    cout << "Color: " << color << endl;
+    cout << "Fortnute? " << endl;
+    cout << "Nature: " << nature << endl;
+
     
 return 0;
 }
