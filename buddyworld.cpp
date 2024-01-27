@@ -7,6 +7,7 @@ string color;
 bool fortunate;
 int randomFortunate;
 string nature;
+int natureNum;
 
 int main(){
     cout << "What do you want to name your buddy? :)" << endl;
@@ -48,6 +49,24 @@ int main(){
     }
     else {
         fortunate = false;
+    }
+
+    natureNum = rand() % 4;
+
+    if (natureNum == 0) {
+        nature = "Workaholic";
+    }
+    if (natureNum == 1) {
+        nature = "Legendary";
+    }
+    if (natureNum == 2) {
+        nature = "eepy";
+    }
+    if (natureNum == 3) {
+        nature = "gex enjoyer";
+    }
+    if (natureNum == 4) {
+        nature = "clinical liar";
     }
 
     
