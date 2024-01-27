@@ -4,7 +4,8 @@ using namespace std;
 string palName;
 int inputColor;
 string color;
-bool lucky;
+bool fortunate;
+int randomFortunate;
 string nature;
 
 void main(){
@@ -17,5 +18,13 @@ void main(){
     cout << "[3]: Greem" << endl;
     cout << "[4]: Yellow" << endl;
     cout << "[5]: White" << endl;
+    
+    randomFortunate = rand() % 1000 + 1
+    if (randomForunate = 1) {
+        forunate = true;
+    }
+    else {
+        fortunate = false;
+    }
 
 }
